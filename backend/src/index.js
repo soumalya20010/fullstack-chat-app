@@ -17,7 +17,7 @@ const PORT = process.env.PORT;
 const __dirname = path.resolve();
 
 const corsOptions = {
-  origin: process.env.NODE_ENV === "production" ? "https://your-frontend.vercel.app" : "http://localhost:5174",
+  origin: process.env.NODE_ENV === "production" ? "https://fullstack-chat-app-delta.vercel.app" : "http://localhost:5174",
   credentials: true,
 };
 
